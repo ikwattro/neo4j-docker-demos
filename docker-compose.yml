@@ -16,7 +16,7 @@ services:
             - NEO4J_dbms_routing_enabled=true
             - NEO4J_dbms_routing_default__router=SERVER
             - NEO4J_dbms_routing_listen__address=0.0.0.0:7688
-            - NEO4JLABS_PLUGINS=["apoc","graph-data-science"]
+            # - NEO4JLABS_PLUGINS=["apoc","graph-data-science"]
         # ports:
         #     - 17474:7474
         #     - 17473:7473
@@ -37,7 +37,7 @@ services:
             - NEO4J_dbms_routing_enabled=true
             - NEO4J_dbms_routing_default__router=SERVER
             - NEO4J_dbms_routing_listen__address=0.0.0.0:7688
-            - NEO4JLABS_PLUGINS=["apoc","graph-data-science"]
+            # - NEO4JLABS_PLUGINS=["apoc","graph-data-science"]
         # ports:
         #     - 27474:7474
         #     - 27473:7473
@@ -58,7 +58,7 @@ services:
             - NEO4J_dbms_routing_enabled=true
             - NEO4J_dbms_routing_default__router=SERVER
             - NEO4J_dbms_routing_listen__address=0.0.0.0:7688
-            - NEO4JLABS_PLUGINS=["apoc","graph-data-science"]
+            # - NEO4JLABS_PLUGINS=["apoc","graph-data-science"]
         # ports:
         #     - 37474:7474
         #     - 37473:7473
@@ -79,7 +79,7 @@ services:
             - NEO4J_dbms_routing_enabled=true
             - NEO4J_dbms_routing_default__router=SERVER
             - NEO4J_dbms_routing_listen__address=0.0.0.0:7688
-            - NEO4JLABS_PLUGINS=["apoc","graph-data-science"]
+            # - NEO4JLABS_PLUGINS=["apoc","graph-data-science"]
         ports:
             - 47474:7474
             - 47473:7473
